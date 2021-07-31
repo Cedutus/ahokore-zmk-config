@@ -64,10 +64,9 @@ behaviors {
    &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P
    &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F &kp G   &kp H &hm RSHFT J  &hm RCTRL K  &hm LALT L  &hm RGUI SEMI
    &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
-   &kp LCTRL &lt 2 RET &kp LALT &kp RGUI &lt 1 SPC &kp RCTRL
+   &kp LSHFT &lt 2 LCTRL &kp SPC &kp RET &lt 1 LALT &kp QUOT
                         >;
                 };
-
                 sym_layer {
 // -----------------------------------------------------------------------------------------
 // |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |
