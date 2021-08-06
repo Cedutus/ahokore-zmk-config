@@ -86,7 +86,7 @@ behaviors {
 // |BTCLR| RST |     |      |     |      | PGDN |  UP  | PGUP |      |
 // | BT0 |CMENU|     |      |     | HOME | LEFT | DOWN |RIGHT | END  |
 // | BT1 | BOOT|     |      |     |      |      |      |      |      |
-//             | CTL | ALT |  ENT | SPC | GUI  | CTL |
+//             | CTL | SFT |  SPC | ENT | LALT  | QUOT |
                         bindings = <
    &bt BT_CLR   &reset      &trans  &trans &trans     &trans    &kp PG_DN &kp UP    &kp PG_UP &trans
    &bt BT_SEL 0 &kp K_CMENU &trans  &trans &trans     &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT &kp END
