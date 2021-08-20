@@ -73,7 +73,7 @@ behaviors {
                         bindings = <
    &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P
    &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F &kp G   &kp H &hm RSHFT J  &hm RCTRL K  &hm LALT L  &hm RGUI SEMI
-   &kp Z &kp X &cp K_COPY C &cp K_PASTE V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
+   &kp Z &kp X &cp LC(C) C &cp LC(V) V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
    &kp LCTRL &kp LSHFT &lt 1 SPC &lt 2 RET &kp LALT &kp QUOT
                         >;
                 };
