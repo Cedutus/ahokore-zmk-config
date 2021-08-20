@@ -20,16 +20,6 @@ behaviors {
         bindings = <&kp>, <&kp>;
     };
     
-      cp: copy_paste{
-        compatible = "zmk,behavior-hold-tap";
-        label = "COPY_PASTE";
-        #binding-cells = <2>;
-        tapping_term_ms = <300>;
-        flavor = "tap-preferred";
-        bindings = <&kp>, <&kp>;
-    };
-    
-
     combos {
     compatible = "zmk,combos";
     combo_del {
@@ -73,7 +63,7 @@ behaviors {
                         bindings = <
    &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P
    &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F &kp G   &kp H &hm RSHFT J  &hm RCTRL K  &hm LALT L  &hm RGUI SEMI
-   &kp Z &kp X &cp LC(C) C &cp LC(V) V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
+   &kp Z &kp X &hm LC(C) C &hm LC(V) V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
    &kp LCTRL &kp LSHFT &lt 1 SPC &lt 2 RET &kp LALT &kp QUOT
                         >;
                 };
